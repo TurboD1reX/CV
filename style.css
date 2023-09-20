@@ -1,6 +1,7 @@
 *{
     font-family: 'Kanit', sans-serif;
     color:rgb(0, 0, 0);
+    padding:0;
 }
 body{
     background-color:#dbdbdb
@@ -15,10 +16,8 @@ nav{
 height:130px; 
 width: 130px;
 border-radius:50%
-
 }
 .nav-name-logo{
-
     font-size:50px;
     font-weight:900;
     color:rgb(255, 255, 255);
@@ -35,7 +34,7 @@ border-radius:50%
 
     width:50%;
     height:370px;
-    margin:0px 6px;
+    margin:0px 4px;
     background-color:white
 }
 .title{
@@ -50,7 +49,7 @@ button{
     color:black;
     font-weight:700;
     text-decoration: none;
-    margin:100px;
+    margin:50px;
     padding:0px 50px;
     font-size:60px;
     transition:ease 0.3s;
@@ -60,12 +59,11 @@ button:hover{
     text-decoration:none;
     color:#444444;
     transition:ease 0.3s;
-    transform:scale(0.9);
+    transform:scale(0.94);
 }
 #container-index-cv{
 text-align:center;
-margin-left:auto; 
-margin-right:auto;
+
 
 }
 p{
@@ -81,9 +79,15 @@ p img{
     border-radius:50%;
 }
 #text-index-cv{
-    margin-top:150px;
+    margin-top:30px;
 }
+.img-index-cv{
+    margin-top:100px;
+    width:400px;
+    height:400px;
+    transform: rotate(10deg);
 
+}
 @media only screen and (max-width: 767px){
 *{
     margin:0px;
