@@ -24,8 +24,8 @@ border-radius:50%
     color:rgb(255, 255, 255);
 }
 .container-box {
+    margin-top:10px;
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ border-radius:50%
 
     width:50%;
     height:370px;
-    margin:10px;
+    margin:0px 6px;
     background-color:white
 }
 .title{
@@ -45,7 +45,7 @@ border-radius:50%
     font-weight: 700 ;
 }
 button{
-    border-radius:20%;
+    border-radius:30em;
     background-color:#9e9e9e;
     color:black;
     font-weight:700;
@@ -54,6 +54,7 @@ button{
     padding:0px 50px;
     font-size:60px;
     transition:ease 0.3s;
+    border:none;
 }
 button:hover{
     text-decoration:none;
@@ -62,7 +63,7 @@ button:hover{
     transform:scale(0.9);
 }
 #container-index-cv{
-    text-align:center;
+text-align:center;
 margin-left:auto; 
 margin-right:auto;
 
@@ -79,15 +80,27 @@ p{
 p img{
     border-radius:50%;
 }
+#text-index-cv{
+    margin-top:150px;
+}
 
 @media only screen and (max-width: 767px){
+*{
+    margin:0px;
+}
+.img-index-cv{
+    width:200px;
+    height:200px;
+    transform: rotate(10deg);
 
+}
     button{
-        
+        font-size:50px;
         margin:100px 0 100px 0 ;
-        
+
     }
     .box{
+        margin-top:30px;
         margin:0px;
         width:100%;   
         height:100%;     
@@ -107,12 +120,16 @@ p img{
     border-radius:50%
     
     }
+
     .nav-name-logo{
 
-        font-size:50px;
+        font-size:33px;
         font-weight:900;
         color:rgb(255, 255, 255);
     }
 
-
+    #text-index-cv{
+        margin-left:3px;
+        margin-top:30px;
+    }
 }
